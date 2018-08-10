@@ -4,11 +4,14 @@
   "description": "Deploy a parcel app to GitHub pages",
   "main": "client.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url /parcel-gh-pages-deploy",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^1.2.0",
     "parcel": "^1.9.7"
   },
   "dependencies": {}
