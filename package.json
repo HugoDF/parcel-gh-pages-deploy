@@ -1,0 +1,15 @@
+{
+  "name": "parcel-gh-pages-deploy",
+  "version": "1.0.0",
+  "description": "Deploy a parcel app to GitHub pages",
+  "main": "client.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^1.9.7"
+  },
+  "dependencies": {}
+}
