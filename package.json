@@ -8,11 +8,19 @@
     "predeploy": "rm -rf dist && parcel build index.html --public-url /parcel-gh-pages-deploy",
     "deploy": "gh-pages -d dist"
   },
-  "author": "",
+  "author": "Hugo Di Francesco",
   "license": "MIT",
   "devDependencies": {
     "gh-pages": "^1.2.0",
     "parcel": "^1.9.7"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoDF/parcel-gh-pages-deploy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HugoDF/parcel-gh-pages-deploy/issues"
+  },
+  "homepage": "https://github.com/HugoDF/parcel-gh-pages-deploy#readme"
 }
